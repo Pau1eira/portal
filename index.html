@@ -78,7 +78,9 @@
         <div
           class="site-section-cover overlay"
           data-stellar-background-ratio="0.5"
-          style="background-image: url('images/imovel/victa/vm/fachada.jpg')"
+          style="
+            background-image: url('images/imovel/victa/vitoria-eusebio/banner.png');
+          "
         >
           <div class="container">
             <div
@@ -86,14 +88,14 @@
             >
               <div class="col-md-7">
                 <span class="h4 text-primary mb-4 d-block">LANÇAMENTO</span>
-                <h1 class="mb-2">Vitória Maracanaú</h1>
+                <h1 class="mb-2">Vitória Eusébio</h1>
                 <p class="text-center mb-5">
                   VICTA ENGENHARIA
                   <span
                     class="small address d-flex align-items-center justify-content-center"
                   >
                     <span class="icon-room mr-3 text-primary"></span>
-                    <span>Pajuçara</span></span
+                    <span>Eusebio</span></span
                   >
                 </p>
 
@@ -134,7 +136,7 @@
                 id="rent-tab"
                 aria-controls="rent"
                 aria-selected="true"
-                >For Rent</a
+                >Venda</a
               >
               <a
                 href="#for-sale"
@@ -143,7 +145,7 @@
                 id="sale-tab"
                 aria-controls="sale"
                 aria-selected="false"
-                >For Sale</a
+                >Aluguel</a
               >
             </div>
           </div>
@@ -159,16 +161,11 @@
             >
               <div class="row">
                 <div class="col-md-4 form-group">
-                  <select name="" id="" class="form-control w-100">
-                    <option value="">All Types</option>
-                    <option value="">Townhouses</option>
-                    <option value="">Duplexes</option>
-                    <option value="">Quadplexes</option>
-                    <option value="">Condominiums</option>
-                  </select>
-                </div>
-                <div class="col-md-4 form-group">
-                  <input type="text" class="form-control" placeholder="Title" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enpreendimento"
+                  />
                 </div>
                 <div class="col-md-4 form-group">
                   <input
@@ -177,12 +174,21 @@
                     placeholder="Address"
                   />
                 </div>
+                <div class="col-md-4 form-group">
+                  <select name="" id="" class="form-control w-100">
+                    <option value="">Tipos</option>
+                    <option value="">Apartamento</option>
+                    <option value="">Casas Novas</option>
+                    <option value="">Condominio</option>
+                    <option value="">Lotes</option>
+                  </select>
+                </div>
               </div>
 
               <div class="row">
                 <div class="col-md-4 form-group">
                   <select name="" id="" class="form-control w-100">
-                    <option value="">Any Bedrooms</option>
+                    <option value="">Quartos</option>
                     <option value="">0</option>
                     <option value="">1</option>
                     <option value="">2</option>
@@ -191,7 +197,7 @@
                 </div>
                 <div class="col-md-4 form-group">
                   <select name="" id="" class="form-control w-100">
-                    <option value="">Any Bathrooms</option>
+                    <option value="">Banheiro</option>
                     <option value="">0</option>
                     <option value="">1</option>
                     <option value="">2</option>
@@ -202,7 +208,7 @@
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <select name="" id="" class="form-control w-100">
-                        <option value="">Min Price</option>
+                        <option value="">Preço Min</option>
                         <option value="">$100</option>
                         <option value="">$200</option>
                         <option value="">$300</option>
@@ -211,7 +217,7 @@
                     </div>
                     <div class="col-md-6">
                       <select name="" id="" class="form-control w-100">
-                        <option value="">Max Price</option>
+                        <option value="">Priço Max</option>
                         <option value="">$25,000</option>
                         <option value="">$50,000</option>
                         <option value="">$75,000</option>
@@ -227,7 +233,7 @@
                   <input
                     type="submit"
                     class="btn btn-black py-3 btn-block"
-                    value="Submit"
+                    value="Perquisar"
                   />
                 </div>
               </div>
@@ -240,15 +246,6 @@
             >
               <div class="row">
                 <div class="col-md-4 form-group">
-                  <select name="" id="" class="form-control w-100">
-                    <option value="">All Types</option>
-                    <option value="">Townhouses</option>
-                    <option value="">Duplexes</option>
-                    <option value="">Quadplexes</option>
-                    <option value="">Condominiums</option>
-                  </select>
-                </div>
-                <div class="col-md-4 form-group">
                   <input type="text" class="form-control" placeholder="Title" />
                 </div>
                 <div class="col-md-4 form-group">
@@ -258,12 +255,21 @@
                     placeholder="Address"
                   />
                 </div>
+                <div class="col-md-4 form-group">
+                  <select name="" id="" class="form-control w-100">
+                    <option value="">Tipos</option>
+                    <option value="">Casas Novas</option>
+                    <option value="">Duplexes</option>
+                    <option value="">Quadplexes</option>
+                    <option value="">Condominiums</option>
+                  </select>
+                </div>
               </div>
 
               <div class="row">
                 <div class="col-md-4 form-group">
                   <select name="" id="" class="form-control w-100">
-                    <option value="">Any Bedrooms</option>
+                    <option value="">Quartos</option>
                     <option value="">0</option>
                     <option value="">1</option>
                     <option value="">2</option>
@@ -272,7 +278,7 @@
                 </div>
                 <div class="col-md-4 form-group">
                   <select name="" id="" class="form-control w-100">
-                    <option value="">Any Bathrooms</option>
+                    <option value="">Banheios</option>
                     <option value="">0</option>
                     <option value="">1</option>
                     <option value="">2</option>
@@ -283,21 +289,21 @@
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <select name="" id="" class="form-control w-100">
-                        <option value="">Min Price</option>
-                        <option value="">$100</option>
-                        <option value="">$200</option>
-                        <option value="">$300</option>
-                        <option value="">$400</option>
+                        <option value="">Preço Min</option>
+                        <option value="">R$150.000</option>
+                        <option value="">R$250.000</option>
+                        <option value="">R$350.000</option>
+                        <option value="">R$450.000</option>
                       </select>
                     </div>
                     <div class="col-md-6">
                       <select name="" id="" class="form-control w-100">
-                        <option value="">Max Price</option>
-                        <option value="">$25,000</option>
-                        <option value="">$50,000</option>
-                        <option value="">$75,000</option>
-                        <option value="">$100,000</option>
-                        <option value="">$100,000,000</option>
+                        <option value="">Preço Max</option>
+                        <option value="">R$150.000</option>
+                        <option value="">R$250.000</option>
+                        <option value="">R$350,000</option>
+                        <option value="">R$450,000</option>
+                        <option value="">R$500.000</option>
                       </select>
                     </div>
                   </div>
@@ -308,7 +314,7 @@
                   <input
                     type="submit"
                     class="btn btn-black py-3 btn-block"
-                    value="Submit"
+                    value="Pesquisar"
                   />
                 </div>
               </div>
@@ -322,12 +328,11 @@
           <div class="row justify-content-center">
             <div class="col-md-6 text-center">
               <h3 class="heading-29201 text-center text-white">
-                Latest Properties
+                Imóveis Em Destaques
               </h3>
 
               <p class="mb-5 text-white">
-                Perspiciatis quidem, harum provident, repellat sint officia quos
-                fugit tempora id deleniti.
+                Veja nossos últimos imóveis em destaque.
               </p>
             </div>
           </div>
@@ -335,13 +340,16 @@
           <div class="owl-carousel nonloop-block-14">
             <div class="media-38289">
               <a href="property-single.html" class="d-block"
-                ><img src="images/img_1.jpg" alt="Image" class="img-fluid"
+                ><img
+                  src="images/imovel/victa/vm/IMG-ENTRADA.jpg"
+                  alt="Image"
+                  class="img-fluid"
               /></a>
               <div class="text">
                 <div class="d-flex justify-content-between mb-3">
                   <div class="sq d-flex align-items-center">
                     <span class="wrap-icon icon-fullscreen"></span>
-                    <span>2911 Sq Ft.</span>
+                    <span>50 m²</span>
                   </div>
                   <div class="bed d-flex align-items-center">
                     <span class="wrap-icon icon-bed"></span> <span>2.</span>
@@ -350,17 +358,20 @@
                     <span class="wrap-icon icon-bath"></span> <span>2</span>
                   </div>
                 </div>
-                <h3 class="mb-3"><a href="#">$570,000</a></h3>
+                <h3 class="mb-3"><a href="#">Preço sob consulta</a></h3>
                 <span class="d-block small address d-flex align-items-center">
                   <span class="icon-room mr-3 text-primary"></span>
-                  <span>156/10 Sapling Street, Harrison, ACT 2914</span></span
+                  <span>Pajuçara, Maracanaú-CE</span></span
                 >
               </div>
             </div>
 
             <div class="media-38289">
               <a href="property-single.html" class="d-block"
-                ><img src="images/img_2.jpg" alt="Image" class="img-fluid"
+                ><img
+                  src="images/imovel/victa/belvedere/Cópia de Entrada.jpg"
+                  alt="Image"
+                  class="img-fluid"
               /></a>
               <div class="text">
                 <div class="d-flex justify-content-between mb-3">
@@ -375,17 +386,20 @@
                     <span class="wrap-icon icon-bath"></span> <span>2</span>
                   </div>
                 </div>
-                <h3 class="mb-3"><a href="#">$1,570,000</a></h3>
+                <h3 class="mb-3"><a href="#">Preço sob consulta</a></h3>
                 <span class="d-block small address d-flex align-items-center">
                   <span class="icon-room mr-3 text-primary"></span>
-                  <span>156/10 Sapling Street, Harrison, ACT 2914</span></span
+                  <span>Eusébio-CE</span></span
                 >
               </div>
             </div>
 
             <div class="media-38289">
               <a href="property-single.html" class="d-block"
-                ><img src="images/img_3.jpg" alt="Image" class="img-fluid"
+                ><img
+                  src="images/imovel/victa/vitoria-eusebio/SQUAD-VICTA-JOSÉ-BENTO-PISCINA-R03-scaled.jpg"
+                  alt="Image"
+                  class="img-fluid"
               /></a>
               <div class="text">
                 <div class="d-flex justify-content-between mb-3">
@@ -400,23 +414,26 @@
                     <span class="wrap-icon icon-bath"></span> <span>2</span>
                   </div>
                 </div>
-                <h3 class="mb-3"><a href="#">$980,000</a></h3>
+                <h3 class="mb-3"><a href="#">Preço sob consulta</a></h3>
                 <span class="d-block small address d-flex align-items-center">
                   <span class="icon-room mr-3 text-primary"></span>
-                  <span>156/10 Sapling Street, Harrison, ACT 2914</span></span
+                  <span>Eusébio-CE</span></span
                 >
               </div>
             </div>
 
             <div class="media-38289">
               <a href="property-single.html" class="d-block"
-                ><img src="images/img_1.jpg" alt="Image" class="img-fluid"
+                ><img
+                  src="images/imovel/victa/vm/IMG-ENTRADA.jpg"
+                  alt="Image"
+                  class="img-fluid"
               /></a>
               <div class="text">
                 <div class="d-flex justify-content-between mb-3">
                   <div class="sq d-flex align-items-center">
                     <span class="wrap-icon icon-fullscreen"></span>
-                    <span>2911 Sq Ft.</span>
+                    <span>50 m²</span>
                   </div>
                   <div class="bed d-flex align-items-center">
                     <span class="wrap-icon icon-bed"></span> <span>2.</span>
@@ -425,17 +442,20 @@
                     <span class="wrap-icon icon-bath"></span> <span>2</span>
                   </div>
                 </div>
-                <h3 class="mb-3"><a href="#">$570,000</a></h3>
+                <h3 class="mb-3"><a href="#">Preço sob consulta</a></h3>
                 <span class="d-block small address d-flex align-items-center">
                   <span class="icon-room mr-3 text-primary"></span>
-                  <span>156/10 Sapling Street, Harrison, ACT 2914</span></span
+                  <span>Pajuçara, Maracanaú-CE</span></span
                 >
               </div>
             </div>
 
             <div class="media-38289">
               <a href="property-single.html" class="d-block"
-                ><img src="images/img_2.jpg" alt="Image" class="img-fluid"
+                ><img
+                  src="images/imovel/victa/belvedere/Cópia de Entrada.jpg"
+                  alt="Image"
+                  class="img-fluid"
               /></a>
               <div class="text">
                 <div class="d-flex justify-content-between mb-3">
@@ -450,10 +470,38 @@
                     <span class="wrap-icon icon-bath"></span> <span>2</span>
                   </div>
                 </div>
-                <h3 class="mb-3"><a href="#">$1,570,000</a></h3>
+                <h3 class="mb-3"><a href="#">Preço sob consulta</a></h3>
                 <span class="d-block small address d-flex align-items-center">
                   <span class="icon-room mr-3 text-primary"></span>
-                  <span>156/10 Sapling Street, Harrison, ACT 2914</span></span
+                  <span>Eusébio-CE</span></span
+                >
+              </div>
+            </div>
+
+            <div class="media-38289">
+              <a href="property-single.html" class="d-block"
+                ><img
+                  src="images/imovel/victa/vitoria-eusebio/SQUAD-VICTA-JOSÉ-BENTO-PISCINA-R03-scaled.jpg"
+                  alt="Image"
+                  class="img-fluid"
+              /></a>
+              <div class="text">
+                <div class="d-flex justify-content-between mb-3">
+                  <div class="sq d-flex align-items-center">
+                    <span class="wrap-icon icon-fullscreen"></span>
+                    <span>2911 Sq Ft.</span>
+                  </div>
+                  <div class="bed d-flex align-items-center">
+                    <span class="wrap-icon icon-bed"></span> <span>2.</span>
+                  </div>
+                  <div class="bath d-flex align-items-center">
+                    <span class="wrap-icon icon-bath"></span> <span>2</span>
+                  </div>
+                </div>
+                <h3 class="mb-3"><a href="#">Preço sob consulta</a></h3>
+                <span class="d-block small address d-flex align-items-center">
+                  <span class="icon-room mr-3 text-primary"></span>
+                  <span>Eusébio-CE</span></span
                 >
               </div>
             </div>
